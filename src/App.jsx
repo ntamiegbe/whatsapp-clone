@@ -10,9 +10,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Search />
-      <Contacts />
-      <Chats />
-    </div>  
+      <div className="flex">
+        <Contacts />
+        <Chats />
+      </div>
+    </div>
   )
 }
 

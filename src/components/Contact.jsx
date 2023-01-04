@@ -4,7 +4,7 @@ const Contact = ({ img, name, message }) => {
     return (
         <div className='flex justify-between border-b py-4'>
             <div className="flex items-center">
-                <div className="w-20 h-20 flex">
+                <div className="w-16 h-16 flex">
                     <img src={img} alt="" className='object-cover rounded-full w-full' />
                 </div>
                 <div className="pl-3">
