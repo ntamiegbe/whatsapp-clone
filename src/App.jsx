@@ -12,7 +12,7 @@ function App() {
       <Search />
       <Contacts />
       <Chats />
-    </div>
+    </div>  
   )
 }
 
