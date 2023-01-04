@@ -4,14 +4,14 @@ import { AiOutlineSearch } from 'react-icons/ai'
 
 const Chats = () => {
   return (
-    <div className='w-full hidden md:flex flex-col space-y-5'>
+    <div className='w-full hidden md:flex flex-col space-y-5 bg-[#eeedef]'>
 
       {/* Header */}
-      <div className="flex justify-between bg-slate-100 px-3 items-center">
+      <div className="flex justify-between p-2 items-center">
 
         <div className="flex">
-          <div className="w-14 h-14 flex">
-            <img src={profile} alt="" className='object-cover rounded-full w-full' />
+          <div className="w-14 h-14 flex rounded-full bg-teal-100">
+            <img src={profile} alt="" className='object-cover rounded-full p-1 w-full' />
           </div>
           <div className="pl-3">
             <p>SOFT DEV.</p>

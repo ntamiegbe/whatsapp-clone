@@ -8,10 +8,12 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Search />
       <div className="flex">
-        <Contacts />
+        <div className="">
+          <Navbar />
+          <Search />
+          <Contacts />
+        </div>
         <Chats />
       </div>
     </div>
