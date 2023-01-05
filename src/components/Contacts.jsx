@@ -7,7 +7,7 @@ import Contact from './Contact'
 
 const contacts = [
   {
-    img: profile,
+    img: profile5,
     name: "Ntami",
     message: "I'm learning react and tailwind css",
     id: 1
@@ -76,7 +76,7 @@ const contacts = [
 
 const Contacts = () => {
   return (
-    <div className='px-4 py-3'>
+    <div className='px-4 py-3 md:w-[25rem]'>
       {contacts.map((contact) => <Contact img={contact.img} name={contact.name} message={contact.message} key={contact.id}/>)}
     </div>
   )
