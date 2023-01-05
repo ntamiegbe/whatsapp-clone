@@ -7,7 +7,7 @@ const Search = () => {
             <div className="absolute left-6">
                 <AiOutlineSearch />
             </div>
-            <input type="search" placeholder='Search or start a new chat' className='w-full pl-12 py-2 outline-none border rounded-lg' />
+            <input type="search" placeholder='Search or start a new chat' className='w-full pl-12 py-2 outline-none border rounded-lg hover:bg-[#f9f9f9]' />
         </div>
     )
 }

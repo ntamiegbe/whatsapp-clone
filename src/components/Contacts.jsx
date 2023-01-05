@@ -72,11 +72,17 @@ const contacts = [
     message: "I'm learning react and tailwind css",
     id: 11
   }, 
+  {
+    img: profile4,
+    name: "Ntami",
+    message: "I'm learning react and tailwind css",
+    id: 12
+  }, 
 ]
 
 const Contacts = () => {
   return (
-    <div className='px-4 py-3 md:w-[25rem]'>
+    <div className='px-1 py-3 md:w-[25rem] lg:w-[32rem] h-screen overflow-y-scroll'>
       {contacts.map((contact) => <Contact img={contact.img} name={contact.name} message={contact.message} key={contact.id}/>)}
     </div>
   )
