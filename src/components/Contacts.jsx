@@ -76,7 +76,7 @@ const contacts = [
 
 const Contacts = () => {
   return (
-    <div className='w-full md:w-[33rem] lg:w-[35rem] h-[80vh]'>
+    <div className='w-full md:w-[33rem] lg:w-[35rem] dark:bg-[#272727]'>
       {contacts.map((contact) => <Contact img={contact.img} name={contact.name} message={contact.message} key={contact.id}/>)}
     </div>
   )
