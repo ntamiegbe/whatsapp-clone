@@ -4,7 +4,7 @@ const Message = ({ css1, css2, name, message, timestamp }) => {
     return (
         <div className={`${css2} flex`}>
             <div
-                className={`${css1} flex flex-col p-2 pr-16 pl-4 m-2 lg:mx-6 rounded-[1rem]  `}
+                className={`${css1} flex flex-col p-2 pr-16 pl-4 m-2 lg:mx-6 rounded-lg  `}
             >
                 <div className="flex flex-col ">
                     {name && <p className="pr-3 font-bold">{name}</p>}

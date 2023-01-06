@@ -20,7 +20,7 @@ const Chats = () => {
     },
     {
       message: "Nice to meet you",
-      css1: "bg-black/90 text-white shadow",
+      css1: "bg-black/80 text-white shadow",
       css2: "justify-end",
       timestamp: "10:36",
     },
@@ -33,7 +33,7 @@ const Chats = () => {
     },
     {
       message: "Not yet, but I will",
-      css1: "bg-black/90 text-white shadow",
+      css1: "bg-black/80 text-white shadow",
       css2: "justify-end",
       timestamp: "10:36",
     },
@@ -46,7 +46,7 @@ const Chats = () => {
     },
     {
       message: "We are working on it.",
-      css1: "bg-black/90 text-white shadow",
+      css1: "bg-black/80 text-white shadow",
       css2: "justify-end",
       timestamp: "10:36",
     },
@@ -67,9 +67,9 @@ const Chats = () => {
           </div>
         </div>
         <div className="flex items-center space-x-4">
-          <BiVideo className='w-10 h-10 hover:bg-[#dddcde] p-2 rounded-lg my-2' />
-          <BiPhone className='w-10 h-10 hover:bg-[#dddcde] p-2 rounded-lg my-2' />
-          <AiOutlineSearch className='w-10 h-10 hover:bg-[#dddcde] p-2 rounded-lg my-2' />
+          <BiVideo className='w-10 h-10 hover:bg-[#dddcde] p-2 rounded-lg' />
+          <BiPhone className='w-10 h-10 hover:bg-[#dddcde] p-2 rounded-lg' />
+          <AiOutlineSearch className='w-10 h-10 hover:bg-[#dddcde] p-2 rounded-lg' />
         </div>
       </div>
 

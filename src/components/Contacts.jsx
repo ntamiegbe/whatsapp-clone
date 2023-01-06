@@ -31,12 +31,6 @@ const contacts = [
     id: 4
   }, 
   {
-    img: profile5,
-    name: "+234 904 568 3931",
-    message: "Hi",
-    id: 5
-  }, 
-  {
     img: profile3,
     name: "Ntami",
     message: "I'm learning react and tailwind css",
@@ -82,7 +76,7 @@ const contacts = [
 
 const Contacts = () => {
   return (
-    <div className='md:px-6 py-3 md:w-[33rem] lg:w-[35rem] h-[80vh]'>
+    <div className='w-full md:w-[33rem] lg:w-[35rem] h-[80vh]'>
       {contacts.map((contact) => <Contact img={contact.img} name={contact.name} message={contact.message} key={contact.id}/>)}
     </div>
   )
