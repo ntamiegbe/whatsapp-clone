@@ -7,7 +7,7 @@ import './index.css'
 function App() {
 
   return (
-    <div className="App">
+    <div className="h-full min-h-screen overflow-hidden">
       <div className="flex">
         <div className="">
           <Navbar />

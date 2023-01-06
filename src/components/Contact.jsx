@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = ({ img, name, message }) => {
     return (
-        <div className='flex justify-between border-b py-3 px-2 hover:bg-[#eeedef]'>
+        <div className='flex justify-between border-b py-3 px-[1.45rem] hover:bg-[#eeedef]'>
             <div className="flex items-center">
                 <div className="w-16 h-16 flex">
                     <img src={img} alt="" className='object-cover rounded-full w-full' />
@@ -12,7 +12,7 @@ const Contact = ({ img, name, message }) => {
                     <p className='text-gray-500 w-[20rem] truncate'>{message}</p>
                 </div>
             </div>
-            <div className="flex h-full">
+            <div className="flex h-full justify-end">
                 <p>8:45</p>
             </div>
         </div>
@@ -20,3 +20,4 @@ const Contact = ({ img, name, message }) => {
 }
 
 export default Contact
+

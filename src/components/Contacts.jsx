@@ -48,41 +48,41 @@ const contacts = [
     message: "I'm learning react and tailwind css",
     id: 7
   }, 
-  {
-    img: profile4,
-    name: "Ntami",
-    message: "I'm learning react and tailwind css",
-    id: 8
-  }, 
-  {
-    img: profile4,
-    name: "Ntami",
-    message: "I'm learning react and tailwind css",
-    id: 9
-  }, 
-  {
-    img: profile4,
-    name: "Ntami",
-    message: "I'm learning react and tailwind css",
-    id: 10
-  }, 
-  {
-    img: profile4,
-    name: "Ntami",
-    message: "I'm learning react and tailwind css",
-    id: 11
-  }, 
-  {
-    img: profile4,
-    name: "Ntami",
-    message: "I'm learning react and tailwind css",
-    id: 12
-  }, 
+  // {
+  //   img: profile4,
+  //   name: "Ntami",
+  //   message: "I'm learning react and tailwind css",
+  //   id: 8
+  // }, 
+  // {
+  //   img: profile4,
+  //   name: "Ntami",
+  //   message: "I'm learning react and tailwind css",
+  //   id: 9
+  // }, 
+  // {
+  //   img: profile4,
+  //   name: "Ntami",
+  //   message: "I'm learning react and tailwind css",
+  //   id: 10
+  // }, 
+  // {
+  //   img: profile4,
+  //   name: "Ntami",
+  //   message: "I'm learning react and tailwind css",
+  //   id: 11
+  // }, 
+  // {
+  //   img: profile4,
+  //   name: "Ntami",
+  //   message: "I'm learning react and tailwind css",
+  //   id: 12
+  // }, 
 ]
 
 const Contacts = () => {
   return (
-    <div className='px-1 py-3 md:w-[25rem] lg:w-[32rem] h-screen overflow-y-scroll'>
+    <div className='md:px-6 py-3 md:w-[33rem] lg:w-[35rem] h-[80vh]'>
       {contacts.map((contact) => <Contact img={contact.img} name={contact.name} message={contact.message} key={contact.id}/>)}
     </div>
   )
