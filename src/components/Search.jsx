@@ -10,7 +10,7 @@ const Search = () => {
             <input
                 type="search"
                 placeholder='Search or start a new chat'
-                className="w-full pl-9 m-2 border-b mx-4 outline-none rounded px-1 py-3 hover:bg-[#f9f9f9] dark:bg-[#272727] hover:dark:bg-[#2d2d2d]"
+                className="w-full pl-9 m-2 border-b mx-4 outline-none rounded px-1 dark:text-white py-3 hover:bg-[#f9f9f9] dark:bg-[#272727] hover:dark:bg-[#2d2d2d]"
             />
         </div>
     );
