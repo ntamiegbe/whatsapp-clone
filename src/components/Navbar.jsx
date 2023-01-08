@@ -5,7 +5,7 @@ import Switcher from './Switcher'
 
 const Navbar = () => {
     return (
-        <div className='flex items-center justify-between px-2 dark:bg-[#272727] bg-[#eeedef] w-screen md:w-full h-[4.5rem]'>
+        <div className='flex items-center justify-between px-2 dark:bg-[#2c2c2c] border-r dark:border-[#343434] bg-[#eeedef] w-screen md:w-full h-[4.5rem]'>
             <div className="w-12 h-12 flex items-center">
                 <p className='text-3xl dark:text-white px-2 font-semibold'>Chats</p>
             </div>
