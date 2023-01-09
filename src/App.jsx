@@ -3,6 +3,7 @@ import Search from "./components/Search"
 import Contacts from "./components/Contacts"
 import Chats from "./components/Chats"
 import './index.css'
+import useDarkSide from './hooks/useDarkSide'
 
 function App() {
 

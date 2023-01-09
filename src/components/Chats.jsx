@@ -8,8 +8,11 @@ import { SlPaperClip } from 'react-icons/sl'
 import { BsEmojiSmile } from 'react-icons/bs'
 import { BiVideo, BiPhone } from 'react-icons/bi'
 import Message from './Message'
+import useDarkSide from '../hooks/useDarkSide'
 
 const Chats = () => {
+  const [theme] = useDarkSide();
+  console.log(theme)
 
   const messages = [
     {
@@ -77,7 +80,7 @@ const Chats = () => {
       {/* Chat Body */}
       <div className="absolute top-0 w-full h-full ">
         <div className="absolute h-full w-full flex">
-          <img src={background} alt="Chat background image" className='object-cover w-full h-screen dark:bg-black' />
+          {theme === "dark " ? <img src={darkBackground} alt="Chat background image" className='object-cover w-full h-screen' /> : <img src={background} alt="Chat background image" className='object-cover w-full h-screen' />}
         </div>
         <div className="relative z-20  pt-[4.5rem] mt-3 lg:mt-4">
           {messages.map((message) => (
